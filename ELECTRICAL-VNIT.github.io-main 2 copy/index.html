@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EDXTTGLVKZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EDXTTGLVKZ');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEE VNIT STUDENT ACTIVITY HUB</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="timetable-styles/modal-style.css">
+    <link rel="stylesheet" href="timetable-styles/table.css">
+    <link rel="stylesheet" href="timetable-styles/mobile-timetable-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body oncontextmenu="return false">
+
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-graduation-cap">Electrical Department</i></a>
+
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="active">home</a></li>
+                <li><a href="http://vnit.ac.in/" target="blank">Official Site</a></li>
+                <li><a href="http://aims.vnit.ac.in/exam/faces/infrastructure/SLogin.jsf" target="blank">AIMS
+                        Website</a></li>
+                <li><a href="#TT">Time Tables</a></li>
+                <li><a href="#Notes">B-Tech Notes</a></li>
+                <li><a href="https://studentportal.vnit.ac.in/home/" target="blank">Student
+                        Portal</a></li>
+
+
+            </ul>
+        </nav>
+
+        <div class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content" id="slide-in-fwd-top">
+            <h1>EEE Student Activity Hub</h1>
+            <p></p>
+<!--             <a href="MTT/modal.html"><button>Endsem TT</button></a> -->
+            <a href="https://vnit.ac.in/eee/"><button>Discover More</button></a>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" id="roll-in-bottom">
+                <i class="fas fa-graduation-cap"></i>
+                <a href="council.html" target="blank">
+                    <h3 id="fc">Department Council</h3>
+                </a>
+                <p>Click here to know more about Department Council</p>
+            </div>
+
+            <div class="box" id="roll-in-bottom">
+                <i class="fas fa-calendar-week"></i>
+                <a href="iframe.html" target="blank">
+                    <h3 id="fc">Academic Calendar</h3>
+                </a>
+                <p>Click here for Academic Calendar</p>
+            </div>
+
+            <div class="box" id="roll-in-bottom">
+                <i class="fab fa-hive"></i>
+                <a href="Student Events/index.html" target="blank">
+                    <h3 id="fc">Student Activities</h3>
+                </a>
+                <p>Click here to see Student Activities</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- TT N Notes section starts  -->
+    <section id="course" class="course">
+
+        <h1 class="heading" id="TT">Time Tables</h1>
+        <h3 class="title">All semester's Digital Time Tables</h3>
+
+        <!-- Timetable Section -->
+
+        <div class="box-container">
+
+            <!-- 3rd Sem -->
+
+            <div class="box hide-view-mob">
+                <i class="far fa-calendar-alt"></i>
+                <h3><a id="sem4jsbtn" class="cta" href="timetable.html">Third Semester</a></h3>
+                <p>Click here to see Time Table of 3rd Semester</p>
+            </div>
+            <div id="sem4btn" class="modaloverlay">
+                <div class="modal">
+                    <a href="#close" class="close"><i class="fas fa-window-close"></i></a>
+                    <div>
+                        <div class='tab'>
+                            <table cellpadding='0' cellspacing='0'>
+                                <tr class='days'>
+                                    <th class="time"></th>
+                                    <th colspan="2">Monday</th>
+                                    <th colspan="2">Tuesday</th>
+                                    <th colspan="2">Wednesday</th>
+                                    <th colspan="2">Thursday</th>
+                                    <th colspan="2">Friday</th>
+                                    <th colspan="2">Saturday</th>
+                                </tr>
+                                <tr>
+                                    <td class='time'>08:00</td>
+                                    <td colspan="2" class='lectures teal 4DC'>Digital Circuits</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures light-blue 4EPS-1wed'>Electrical Power System</td>
+                                    <td colspan="2" class='lectures pink 4EPU'>Electrical Power Utilisation</td>
+                                    <td colspan="2" class='lectures green 4PSPfri'>Power Station Practice</td>
+                                    <td colspan="2"></td>
+
+
+                                </tr>
+                                <tr>
+                                    <td class='time'>09:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures teal 4DC'>Digital Circuits</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures green 4PSPthu'>Power Station Practice</td>
+                                    <td colspan="2" class='lectures green 4PSPfri'>Power Station Practice</td>
+                                    <td colspan="2" class='lectures yellow 4NMPT'>Numerical Methods & Probability Theory
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>10:00</td>
+                                    <td colspan="2" class='lectures pink 4EPU'>Electrical Power Utilisation</td>
+                                    <td colspan="2" class='lectures light-blue 4EPS-1tue'>Electrical Power System</td>
+                                    <td colspan="2" class='lectures pink 4EPU'>Electrical Power Utilisation</td>
+                                    <td colspan="2" class='lectures off-white 4EM1'>Electrical Machines 1</td>
+                                    <td colspan="2" class='lectures off-white 4EM1'>Electrical Machines 1</td>
+                                    <td colspan="2" class='lectures light-blue 4LEC'>Linear Electronic Circuit</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>11:00</td>
+                                    <td colspan="2" class='lectures off-white 4EM1'>Electrical Machines 1</td>
+                                    <td colspan="2" class='lectures yellow 4NMPT'>Numerical Methods & Probability Theory
+                                    </td>
+                                    <td colspan="2" class='lectures yellow 4NMPT'>Numerical Methods & Probability
+                                        Theory</a></td>
+                                    <td colspan="2" class='lectures teal 4DC'>Digital Circuits</td>
+                                    <td colspan="2" class='lectures light-blue 4LEC'>Linear Electronic Circuit</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>12:00</td>
+                                    <td colspan="2" class='lectures green 4PSPmon'>Power Station Practice</td>
+                                    <td colspan="2" class='lectures light-blue 4LEC'>Linear Electronic Circuit</td>
+                                    <td colspan="2" class='lectures light-blue 4LEC'>Linear Electronic Circuit</td>
+                                    <td colspan="2" class='lectures light-blue 4EPS-1thu'>Electrical Power System</td>
+                                    <td colspan="2" class='lectures yellow 4NMPT'>Numerical Methods & Probability Theory
+                                    </td>
+                                    <td colspan="2" class='lectures off-white 4EM1'>Electrical Machines 1</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>2:00</td>
+                                    <td colspan="2" class='lectures light-blue 4LECLAB'>LEC LAB B1-B2-B3</td>
+                                    <td colspan="2" class='lectures yellow 4PTSLAB'>Programming T&S</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures pink 4EPU'>Electrical Power Utilisation</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>3:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures teal 4DC'>Digital Circuits</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>4:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>5:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="box hide-view-desktop">
+                <i class="far fa-calendar-alt"></i>
+                <h3><a id="sem4mobjs" class="cta" href="#sem4mob">Third Semester</a></h3>
+                <p>Click here to see Time Table of 3rd Semester</p>
+            </div>
+
+            <div id="sem4mob" class="modaloverlay">
+                <div class="modal">
+                    <a href="#close" class="close"><i class="fas fa-window-close"></i></a>
+                    <div>
+                        <div class="box-tt">
+                            <div class="container_days">
+                                <button class="tablinks4" onclick="openCityFour(event, 'monday4')">
+                                    MON
+                                </button>
+                                <button class="tablinks4" onclick="openCityFour(event, 'tuesday4')">
+                                    TUE
+                                </button>
+                                <button class="tablinks4" onclick="openCityFour(event, 'wednesday4')">
+                                    WED
+                                </button>
+                                <button class="tablinks4" onclick="openCityFour(event, 'thursday4')">
+                                    THU
+                                </button>
+                                <button class="tablinks4" onclick="openCityFour(event, 'friday4')">
+                                    FRI
+                                </button>
+                                <button class="tablinks4" onclick="openCityFour(event, 'saturday4')">
+                                    SAT
+                                </button>
+                            </div>
+
+                            <!-- Monday -->
+
+                            <div id="monday4" class="tabcontent4">
+
+                                <a href="" target="_blank" class="sem4DC"
+                                    style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 25px"><br/>Digital Circuit</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4EPU" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br/>Electrical Power Utilization
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4DS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 10px">
+                                            <br />
+                                            Data Stucture
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4EM1"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 10px"><br />Electrical Machines-1</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4PSP" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 10px">
+                                            <br />Power Station Practice
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a href="" target="_blank" class="sem4LECP" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">2 - 3 PM</p>
+
+                                        <h3 style="padding: 10px">
+                                            <br/>LEC LAB BAtch 1, 2, 3
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                
+                            </div>
+
+                            <!-- Tuesday -->
+
+                            <div id="tuesday4" class="tabcontent4">
+                                <a href="" target="_blank" class="sem4DC"
+                                style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">9 - 10AM</p>
+
+                                        <h3 style="padding: 10px"><br/>Digital Circuit</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4EPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Electrical Power System
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4NMPT"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />
+                                            N M P T
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href=# target="_blank" class="sem4LEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Linear Electronics Circuit
+                                        </h3>
+                                    </div>
+                                </a>
+                                
+                                 <a href=# target="_blank" class="sem4PTS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">2 - 4 PM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Programming Technique & Simulation
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- wednesday -->
+
+                            <div id="wednesday4" class="tabcontent4" class="margin">
+                                <a href=# target="_blank" class="sem4EPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Electrical Power System
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href=# target="_blank" class="sem4EPU" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Electical Power Utilization
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href=# target="_blank" class="sem4DS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />
+                                            Data Stucture
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4NMPT"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />N M P T</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4LEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Linear Electronics Circuit
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Thursday -->
+
+                            <div id="thursday4" class="tabcontent4" class="margin">
+                                <a href="" target="_blank" class="sem4EPU" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Electical Power Utilization
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4PSP" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Power Station Practice
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4EM1"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Electrical Machines 1</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4DC"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Digital Circuit</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4EPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Electrical Power System
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Friday -->
+
+                            <div id="friday4" class="tabcontent4" class="margin">
+                                <a href="" target="_blank" class="sem4PSP" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">8.30 - 10 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br/>Power Station Practice
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4EM1"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Electrical Machines 1</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem4LEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />Linear Electronics Circuit
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a href="" target="_blank" class="sem4NMPT"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />N M P T</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Saturday -->
+
+                            <div id="saturday4" class="tabcontent4" class="margin">
+                                <a href="" target="_blank" class="sem4NMPT"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 10px"><br />N M P T</h3>
+                                    </div>
+                                </a>
+                                <a href="" target="_blank" class="sem4LEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 10px">
+                                            <br />Linear Electronics Circuit
+                                        </h3>
+                                    </div>
+                                </a>
+                               
+                                <a href="" target="_blank" class="sem4EM1"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 10px"><br />Electrical Machines 1</h3>
+                                    </div>
+                                </a>
+                                <a href="" target="_blank" class="sem4EPU" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">2 - 3 PM</p>
+
+                                        <h3 style="padding: 10px">
+                                            <br />Electrical Power Utilization
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a href="" target="_blank" class="sem4DC"
+                                    style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">3 - 4 PM</p>
+
+                                        <h3 style="padding: 10px"><br />Digital Circuit</h3>
+                                    </div>
+                                </a>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6th Sem -->
+
+            <div class="box hide-view-mob">
+                <i class="far fa-calendar-alt"></i>
+                <h3><a id="sem6jsbtn" class="cta" href="#sem6btn">Sixth Semester</a></h3>
+                <p>Click here to see Time Table of 6th Semester</p>
+            </div>
+            <div id="sem6btn" class="modaloverlay">
+                <div class="modal">
+                    <a href="#close" class="close"><i class="fas fa-window-close"></i></a>
+                    <div>
+                        <div class='tab'>
+                            <table cellpadding='0' cellspacing='0'>
+                                <tr class='days'>
+                                    <th class="time"></th>
+                                    <th colspan="2">Monday</th>
+                                    <th colspan="2">Tuesday</th>
+                                    <th colspan="2">Wednesday</th>
+                                    <th colspan="2">Thursday</th>
+                                    <th colspan="2">Friday</th>
+                                    <th colspan="2">Saturday</th>
+                                </tr>
+                                <tr>
+                                    <td class='time'>08:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class="lectures purple 6A">Slot A</td>
+<!--                                     <td colspan="2" class='lectures light-blue 6SG&P'>No Class</td> -->
+                                    <td colspan="2" class='lectures'>No Class</td>
+                                    <td colspan="2" class='lectures pink 6EPU'>E . P . U . / Slot - B</td>
+                                    <td colspan="2" class="lectures purple 6A">Slot A</td>
+                                    <td colspan="2"></td>
+
+
+                                </tr>
+                                <tr>
+                                    <td class='time'>09:00</td>
+                                    <td colspan="2" class="lectures purple 6A">Slot A</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class="lectures purple 6A">Slot A</td>
+                                    <td colspan="2" class='lectures green 6LEC'>Linear Electronic Circuit</td>
+                                    <td colspan="2" class='lectures green 6LEC'>Linear Electronic Circuit</td>
+                                    <td colspan="2" class='lectures yellow 6ED&Csat'>Electric Drives & Control</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>10:00</td>
+                                    <td colspan="2" class='lectures pink 6EPU'>E . P . U . / Slot - B</td>
+                                    <td colspan="2" class='lectures light-blue 6SG&P'>Switch Gear & Protection</td>
+                                    <td colspan="2" class='lectures pink 6EPU'>E . P . U . / Slot - B</td>
+                                    <td colspan="2" class='lectures off-white 6MC'>Micro Controllers</td>
+                                    <td colspan="2" class='lectures off-white 6MC'>Micro Controllers</td>
+                                    <td colspan="2" class='lectures light-blue 6CMPS'>CMPS</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>11:00</td>
+                                    <td colspan="2" class='lectures off-white 6MC'>Micro Controllers</td>
+                                    <td colspan="2" class='lectures yellow 6ED&Ctue'>Electric Drives & Control</td>
+                                    <td colspan="2" class='lectures yellow 6ED&Cwed'>Electric Drives & Control</td>
+                                    <td colspan="2" class='lectures teal 6FACTS'>FACTS</td>
+                                    <td colspan="2" class='lectures light-blue 6CMPS'>CMPS</td>
+                                    <td colspan="2" class='lectures green 6LEC'>Linear Electronic Circuit</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>12:00</td>
+                                    <td colspan="2" class='lectures green 6LEC'>Linear Electronic Circuit</td>
+                                    <td colspan="2" class='lectures light-blue 6CMPS'>CMPS</td>
+                                    <td colspan="2" class='lectures light-blue 6CMPS'>CMPS</td>
+                                    <td colspan="2" class='lectures light-blue 6SG&P'>Switch Gear & Protection</td>
+                                    <td colspan="2" class='lectures yellow 6ED&Cfri'>Electric Drives & Control</td>
+                                    <td colspan="2" class='lectures off-white 6MC'>Micro Controllers</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>2:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures pink 6EPU'>E . P . U . / Slot - B</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>3:00</td>
+                                    <td colspan="2" class='lectures'>No Class</td>
+<!--                                     <td colspan="2" class='lectures teal 6FACTS'>FACTS</td> -->
+                                    <td colspan="2" class='lectures teal 6FACTS'>FACTS</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures teal 6FACTS'>FACTS</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>4:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures light-blue 6SG&P'>Switch Gear & Protection</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>5:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box hide-view-desktop">
+                <i class="far fa-calendar-alt"></i>
+                <h3><a id="sem6mobjs" class="cta" href="#sem6mob">Sixth Semester</a></h3>
+                <p>Click here to see Time Table of 6th Semester</p>
+            </div>
+
+            <div id="sem6mob" class="modaloverlay">
+                <div class="modal">
+                    <a href="#close" class="close"><i class="fas fa-window-close"></i></a>
+                    <div>
+                        <div class="box-tt">
+                            <div class="container_days">
+                                <button class="tablinks6" onclick="openCitySix(event, 'monday6')">
+                                    MON
+                                </button>
+                                <button class="tablinks6" onclick="openCitySix(event, 'tuesday6')">
+                                    TUE
+                                </button>
+                                <button class="tablinks6" onclick="openCitySix(event, 'wednesday6')">
+                                    WED
+                                </button>
+                                <button class="tablinks6" onclick="openCitySix(event, 'thursday6')">
+                                    THU
+                                </button>
+                                <button class="tablinks6" onclick="openCitySix(event, 'friday6')">
+                                    FRI
+                                </button>
+                                <button class="tablinks6" onclick="openCitySix(event, 'saturday6')">
+                                    SAT
+                                </button>
+                            </div>
+                            <!-- Monday -->
+
+                            <div id="monday6" class="tabcontent6">
+                                <a href="#" target="_blank" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 10px; margin-left: 20px">
+                                            <br />No Class
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6slotA" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 10px; margin-left: 20px">
+                                            <br />S L O T - A
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6EPU" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 10px"><br />E . P . U . / Slot - B</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6MC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 10px"><br />Micro Controllers</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6LEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 10px; margin-left: 20px"><br />L . E . C</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6FACTS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">3 - 4 PM</p>
+
+<!--                                         <h3 style="padding: 10px; margin-left: 20px"><br />F .A. C . T . S</h3> -->
+                                        <h3 style="padding: 10px; margin-left: 20px"><br />No Class</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <!-- Tuesday -->
+
+                            <div id="tuesday6" class="tabcontent6">
+                                <a href="#" target="_blank" class="sem6slotA" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 20px">
+                                            <br />S L O T - A
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10AM</p>
+
+                                        <h3 style="padding: 10px; margin-left: 20px">
+                                            <br />
+                                            No Class
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem6SAP" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Switchgear and protection</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6EDAC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Electric Devices and Control</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6CMPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 15px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 0px; margin-left: 20px">
+                                            <br />C . M . P . S
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6FACTS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">3 - 4 PM</p>
+
+                                        <h3 style="padding: 10px; margin-left: 20px"><br />F .A. C . T . S</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <!-- wednesday -->
+
+                            <div id="wednesday6" class="tabcontent6" class="margin">
+                                <a href="#" target="_blank" class="sem6SAP" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px"><br />No Class</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6slotA" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 30px"><br />S L O T - A</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem6EPU" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />E . P . U / Slot B</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6EDAC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Electric Drives and Control</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6CMPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />C . M . P . S</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Thursday -->
+
+                            <div id="thursday6" class="tabcontent6" class="margin">
+                                <a href="#" target="_blank" class="sem6EPU" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 30px"><br />E . P . U . / Slot - B</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6LEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 30px"><br />L . E . C</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6MC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Micro Controllers</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6FACTS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />F . A . C . T . S</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6SAP" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />Switchgear and protection</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Friday -->
+
+                            <div id="friday6" class="tabcontent6" class="margin">
+                                <a href="#" target="_blank" class="sem6slotA" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 30px">
+                                            <br />S L O T - A
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6LEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 30px"><br />L . E . C</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6MC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br/> Micro Controllers</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem6CMPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />C . M . P . S</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6EDAC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />Electric Drives and Control</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Saturday -->
+
+                            <div id="saturday6" class="tabcontent6" class="margin">
+                                <a href="#" target="_blank" class="sem6EDAC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px"><br/>Electric Drives and Control</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6CMPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 30px">
+                                            <br />C . M . P . S
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6LEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 30px"><br />L . E . C</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6MC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br/>Micro Controllers</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6EPU" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">2 - 3 PM</p>
+
+                                        <h3 style="padding: 15px"><br />E . P . U . / Slot - B</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6FACTS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">3 - 4 PM</p>
+
+                                        <h3 style="padding: 15px; margin-left: 30px">
+                                            <br />F . A . C . T . S
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem6SAP" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">4 - 5 PM</p>
+
+                                        <h3 style="padding: 15px"><br />Switchgear and protection</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8th Sem -->
+
+            <div class="box hide-view-mob">
+                <i class="far fa-calendar-alt"></i>
+                <h3><a id="sem8jsbtn" class="cta" href="#sem8btn">Eighth Semester</a></h3>
+                <p>Click here to see Time Table of 8th Semester</p>
+            </div>
+            <div id="sem8btn" class="modaloverlay">
+                <div class="modal">
+                    <a href="#close" class="close"><i class="fas fa-window-close"></i></a>
+                    <div>
+                        <div class='tab'>
+                            <table cellpadding='0' cellspacing='0'>
+                                <tr class='days'>
+                                    <th class="time"></th>
+                                    <th colspan="2">Monday</th>
+                                    <th colspan="2">Tuesday</th>
+                                    <th colspan="2">Wednesday</th>
+                                    <th colspan="2">Thursday</th>
+                                    <th colspan="2">Friday</th>
+                                    <th colspan="2">Saturday</th>
+                                </tr>
+                                <tr>
+                                    <td class='time'>08:00</td>
+                                    <td colspan="2" class='lectures teal 8SG'>Smart Grid</td>
+                                    <td colspan="2" class="lectures purple 8OCHMA"> OC/HM Slot A</td>
+                                     <td colspan="2"></td>
+                                    <td colspan="2" class='lectures pink 8OCHMB'>OC/HM Slot B</td>
+                                    <td colspan="2" class="lectures purple 8OCHMA"> OC/HM Slot A</td>
+                                    <td colspan="2"></td>
+
+
+                                </tr>
+                                <tr>
+                                    <td class='time'>09:00</td>
+                                    <td colspan="2" class="lectures purple 8OCHMA"> OC/HM Slot A</td>
+                                    <td colspan="2" class='lectures teal 8SG'>Smart Grid</td>
+                                    <td colspan="2" class="lectures purple 8OCHMA"> OC/HM Slot A</td>
+                                    <td colspan="2" class='lectures green 8RESthu'>RES</td>
+                                    <td colspan="2" class='lectures green 8RES'>RES</td>
+                                    <td colspan="2" class='lectures yellow 8CS2'>CS-2</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>10:00</td>
+                                    <td colspan="2" class='lectures pink 8OCHMB'>OC/HM Slot B</td>
+                                    <td colspan="2" class='lectures light-blue 8CMEC'>CMEC</td>
+                                    <td colspan="2" class='lectures pink 8OCHMB'>OC/HM Slot B</td>
+                                    <td colspan="2" class='lectures off-white 8RPS'>RPS</td>
+                                    <td colspan="2" class='lectures off-white 8RPS'>RPS</td>
+                                    <td colspan="2" class='lectures light-blue'> --- </td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>11:00</td>
+                                    <td colspan="2" class='lectures off-white 8RPS'>RPS</td>
+                                    <td colspan="2" class='lectures yellow 8CS2'>CS-2</td>
+                                    <td colspan="2" class='lectures yellow 8CS2'>CS-2</td>
+                                    <td colspan="2" class='lectures teal'>Smart Grid</td>
+                                    <td colspan="2" class='lectures light-blue'> CMEC </td>
+                                    <td colspan="2" class='lectures green 8RES'>RES</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>12:00</td>
+                                    <td colspan="2" class='lectures green 8RESmon'>RES </td>
+                                    <td colspan="2" class='lectures light-blue'> --- </td>
+                                    <td colspan="2" class='lectures light-blue'> CMEC </td>
+                                    <td colspan="2" class='lectures light-blue 8CMEC'> -- </td>
+                                    <td colspan="2" class='lectures yellow 8CS2'>CS-2</td>
+                                    <td colspan="2" class='lectures off-white 8RPS'>RPS</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>2:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures pink 8OCHMB'>OC/HM Slot B</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>3:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2" class='lectures teal 8SG'>Smart Grid</td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>4:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td class='time'>5:00</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="box hide-view-desktop">
+                <i class="far fa-calendar-alt"></i>
+                <h3><a id="sem8mobjs" class="cta" href="#sem8mob">Eighth Semester</a></h3>
+                <p>Click here to see Time Table of 8th Semester</p>
+            </div>
+
+            <div id="sem8mob" class="modaloverlay">
+                <div class="modal">
+                    <a href="#close" class="close"><i class="fas fa-window-close"></i></a>
+                    <div>
+                        <div class="box-tt">
+                            <div class="container_days">
+                                <button class="tablinks8" onclick="openCityEight(event, 'monday8')">
+                                    MON
+                                </button>
+                                <button class="tablinks8" onclick="openCityEight(event, 'tuesday8')">
+                                    TUE
+                                </button>
+                                <button class="tablinks8" onclick="openCityEight(event, 'wednesday8')">
+                                    WED
+                                </button>
+                                <button class="tablinks8" onclick="openCityEight(event, 'thursday8')">
+                                    THU
+                                </button>
+                                <button class="tablinks8" onclick="openCityEight(event, 'friday8')">
+                                    FRI
+                                </button>
+                                <button class="tablinks8" onclick="openCityEight(event, 'saturday8')">
+                                    SAT
+                                </button>
+                            </div>
+
+                            <!-- Monday -->
+
+                            <div id="monday8" class="tabcontent8">
+                                <a href="#" target="_blank" class="sem8smartGrid" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Smart Grid</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8OCHMA" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM SLOT A</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8OCHMB" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot B</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8RPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />R . P . S</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8RES" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />R . E. S</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Tuesday -->
+
+                            <div id="tuesday8" class="tabcontent8">
+                                <a href="#" target="_blank" class="sem8OCHMA" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM SLOT A</h3>
+                                    </div>
+                                </a>
+
+                                <a href="" target="_blank" class="sem8smartGrid" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10AM</p>
+
+                                        <h3 style="padding: 15px"><br />Smart Grid</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8CMEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />C . M . E . C</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8CS2" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px">
+                                            <br />
+                                            C S - 2
+                                        </h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8OCHMF" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot F</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- wednesday -->
+
+                            <div id="wednesday8" class="tabcontent8" class="margin">
+                                <a href="#" target="_blank" class="sem8CMEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px"><br />C . M . E . C</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8OCHMA" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot A</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8OCHMB" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot B</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8CS2" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />C S - 2</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8OCHMF" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot F</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Thursday -->
+
+                            <div id="thursday8" class="tabcontent8" class="margin">
+                                <a href="#" target="_blank" class="sem8OCHMB" style="color: black; padding: 15px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">8 - 9 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot B</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8RES" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px"><br />R. E. S</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8RPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />R . P . S</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8smartGrid" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />Smart Grid</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8CMEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />C . M . E . C</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Friday -->
+
+                            <div id="friday8" class="tabcontent8" class="margin">
+                                <a href="#" target="_blank" class="sem8OCHMA" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot A</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8RES" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px"><br />R . E. S</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8RPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />R . P . S</h3>
+                                    </div>
+                                </a>
+
+                                <a href="#" target="_blank" class="sem8OCHMF" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot F</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8CS2" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />C S - 2</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Saturday -->
+
+                            <div id="saturday8" class="tabcontent8" class="margin">
+                                <a href="#" target="_blank" class="sem8CS2" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">9 - 10 AM</p>
+
+                                        <h3 style="padding: 15px"><br />C S - 2</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8OCHMF" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">10 - 11 AM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot F</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8RES" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">11 - 12 AM</p>
+
+                                        <h3 style="padding: 15px"><br />R . E. S</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8RPS" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">12 - 1 PM</p>
+
+                                        <h3 style="padding: 15px"><br />R . P . S</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8OCHMB" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox2">
+                                        <p style="margin-left: 10px">2 - 3 PM</p>
+
+                                        <h3 style="padding: 15px"><br />OC / HM Slot B</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8smartGrid" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox1">
+                                        <p style="margin-left: 10px">3 - 4 PM</p>
+
+                                        <h3 style="padding: 15px"><br />Smart Grid</h3>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="sem8CMEC" style="color: black; padding: 10px; text-decoration: none">
+                                    <div class="classbox3">
+                                        <p style="margin-left: 10px">4 - 5 PM</p>
+
+                                        <h3 style="padding: 15px"><br />C . M . E . C</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Timetable Section ends  -->
+
+    </section>
+    <section id="course" class="course">
+
+        <h1 class="heading" id="Notes">B-Tech Notes</h1>
+        <h3 class="title">Semester_Wise Notes</h3>
+
+
+        <div class="box-container">
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="https://drive.google.com/drive/folders/1UyapGnNU6baQPhbOpDICEJPR6W2MkDVf?usp=sharing" target="blank">First Year</a></h3>
+                <p>Click here to see Lecture Notes of 1st Year</p>
+            </div>
+
+
+
+            <div class="box">
+
+                <i class="fas fa-book"></i>
+                <h3><a href="https://drive.google.com/drive/folders/1XfNNaMh2NDSQNUe7DOLyrQ4mHxMebcvO?usp=sharing"
+                        target="blank">Third Semester</a></h3>
+                <p>Click here to see Lecture Notes of 3rd Semester</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-book"></i>
+                <h3><a href="https://drive.google.com/drive/folders/1jxyO2IdFNHtM08_JUZsLT2v79tJE6m1O?usp=sharing"
+                        target="blank">Fourth Semester</a></h3>
+                <p>Click here to see Lecture Notes of 4th Semester</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-book"></i>
+                <h3><a href="https://drive.google.com/drive/folders/1A8ffuX_GTT4yTOZ12aafZlvz-5a7XBsS?usp=sharing"
+                        target="blank">Fifth Semester</a></h3>
+                <p>Click here to see Lecture Notes of 5th Semester</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-book"></i>
+                <h3><a href="https://drive.google.com/drive/folders/1oK9iaAmqnql1ypD7lsiGs_mwR9PY6AlR?usp=sharing"
+                        target="blank">Sixth Semester</a></h3>
+                <p>Click here to see Lecture Notes of 6th Semester</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-book"></i>
+                <h3><a href="https://drive.google.com/drive/folders/1qUQ1KM144uRAzkaGuwPecSufuWaLP26T?usp=sharing"
+                        target="blank">Seventh Semester</a></h3>
+                <p>Click here to see Lecture Notes of 7th Semester</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-book"></i>
+                <h3><a href="https://drive.google.com/drive/folders/1LLI4UuQSqOvFV5n-wOoi6Y2FLUGUZ034?usp=sharing"
+                        target="blank">Eighth Semester</a></h3>
+                <p>Click here to see Lecture Notes of 8th Semester</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- TT N Notes section ends -->
+
+    <!-- teacher section starts  -->
+
+    <section id="teacher" class="teacher">
+
+        <h1 class="heading">our Faculty</h1>
+        <h3 class="title">meet our professors</h3>
+
+        <div class="card-container">
+
+
+
+            <div class="card">
+                <img src="eee-faculty-members.jpg" alt="">
+                <h3>Faculty Members</h3>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- teacher section ends -->
+
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading" id="con">contact us</h1>
+        <h3 class="title">we love Conversations, lets talk.</h3>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="contact us.svg" alt="Contact us">
+            </div>
+
+            <div class="form-container">
+                <form action="" method="POST" onsubmit="return false">
+                    <input type="text" placeholder="full name" name="name">
+                    <input type="email" autocorrect="off" autocapitalize="none" placeholder="enter your email"
+                        name="email">
+                    <input type="number" placeholder="phone" name="phone">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <input type="submit" value="message" id="message">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <section class="footer">
+
+        <div class="icons">
+            <p id="in">Follow us on</p>
+            <a href="https://instagram.com/vnit_trical?utm_medium=copy_link" target="blank"
+                class="fab fa-instagram"></a>
+        </div>
+
+        <div class="credit">all rights reserved.</div>
+
+    </section>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="main.js"></script>
+    <script src="email.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="timetable-js/script-sem4.js"></script>
+    <script src="timetable-js/script-sem6.js"></script>
+    <script src="timetable-js/script-sem8.js"></script>
+
+
+
+
+    <script src="timetable-render-js/sem4-subjects.js"></script>
+    <script src="timetable-render-js/sem4-render.js"></script>
+    <script src="timetable-render-js/sem6-subjects.js"></script>
+    <script src="timetable-render-js/sem6-render.js"></script>
+    <script src="timetable-render-js/sem8-subjects.js"></script>
+    <script src="timetable-render-js/sem8-render.js"></script>
+
+    <script src="mob-tt-render-js/4sem-subjects.js"></script>
+    <script src="mob-tt-render-js/6sem-subjects.js"></script>
+    <script src="mob-tt-render-js/8sem-subjects.js"></script>
+
+
+</body>
+
+</html>
